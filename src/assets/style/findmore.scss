@@ -1,0 +1,101 @@
+.exploremore.button {
+  background-color: transparent;
+  border: 1px solid #fafafa;
+  padding: 8px 13px;
+  margin-right: 0;
+  width: 350px;
+  position: absolute;
+  color: #fff;
+  right: -5vw;
+  bottom: -2vh;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: background-color 0.2s ease-in;
+  }
+
+  .left {
+    font-size: 18px;
+    width: auto;
+    white-space: nowrap;
+  }
+
+  .about-arrowtipup {
+    border-bottom: 2px solid #fafafa;
+    margin-top: 1px;
+    position: absolute;
+    width: 12px;
+    transform: rotate(32deg);
+    transform-origin: bottom right;
+    right: 60px;
+    bottom: 30px;
+  }
+
+  .about-arrowtipdown {
+    border-bottom: 1px solid #fafafa;
+    margin-top: 9px;
+    position: absolute;
+    width: 0%;
+    right: 9%;
+    transform: rotate(-40deg);
+    transform-origin: bottom right;
+  }
+
+  .about-rightarrow {
+    border-bottom: 2px solid #fafafa;
+    margin-top: 25px;
+    position: absolute;
+    width: 70px;
+    right: 60px;
+    bottom: 30px;
+  }
+
+  .right p {
+    color: #fff;
+  }
+
+  .left .en {
+    cursor: pointer;
+    letter-spacing: 3px;
+    white-space: nowrap;
+    padding-bottom: 5px;
+    font-family: "DIN-Light";
+    font-size: 14px;
+  }
+
+  left .cn {
+    font-size: 15px;
+    width: auto;
+    letter-spacing: 3px;
+    white-space: nowrap;
+    font-family: "NotoSansCJKsc-Light", sans-serif;
+  }
+
+  p#aboutplus1 {
+    position: absolute;
+    top: 37px;
+    left: -7px;
+    font-size: 18px;
+  }
+
+  p#aboutplus2 {
+    position: absolute;
+    top: 37px;
+    right: -7px;
+    font-size: 18px;
+  }
+
+  p#aboutplus3 {
+    position: absolute;
+    bottom: 39px;
+    left: -7px;
+    font-size: 18px;
+  }
+
+  p#aboutplus4 {
+    position: absolute;
+    bottom: 39px;
+    right: -7px;
+    font-size: 18px;
+  }
+}

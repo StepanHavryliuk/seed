@@ -1,0 +1,104 @@
+.leftright.button {
+    float: right;
+    .leftpageplus1,
+    .leftpageplus2,
+    .leftpageplus3,
+    .leftpageplus4 {
+      position: absolute;
+      color: $text-color;
+    }
+    .leftbutton {
+      display: inline-block;
+      cursor: pointer;
+      height: 57px;
+      width: 57px;
+      position: relative;
+      background-color: transparent;
+      border: 1px solid #fafafa;
+      padding: 10px;
+      margin-right: 50px;
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.5);
+        transition: background-color 0.2s ease-in;
+      }
+
+      .leftpageplus1 {
+        top: -12px;
+        left: -6px;
+      }
+      .leftpageplus2 {
+        top: -12px;
+        right: -6px;
+      }
+      .leftpageplus3 {
+        bottom: -10px;
+        left: -6px;
+      }
+      .leftpageplus4 {
+        bottom: -10px;
+        right: -6px;
+      }
+      .leftarrowicon {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        .arrlefttip {
+          transform: rotate(-35deg) translateY(1px);
+          transform-origin: bottom left;
+          width: 10px;
+          border-bottom: 1px solid #fafafa;
+        }
+        .arrleftline {
+          border-bottom: 1px solid #fafafa;
+          width: 29px;
+        }
+      }
+    }
+    .rightbutton {
+      display: inline-block;
+      cursor: pointer;
+      height: 57px;
+      width: 57px;
+      position: relative;
+      background-color: transparent;
+      border: 1px solid #fafafa;
+      padding: 10px;
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.5);
+        transition: background-color 0.2s ease-in;
+      }
+      .leftpageplus1 {
+        top: -12px;
+        left: -6px;
+      }
+      .leftpageplus2 {
+        top: -12px;
+        right: -6px;
+      }
+      .leftpageplus3 {
+        bottom: -11px;
+        left: -6px;
+      }
+      .leftpageplus4 {
+        bottom: -11px;
+        right: -6px;
+      }
+      .leftarrowicon {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        .arrrighttip {
+          transform: rotate(389deg) translate(17px, -9px);
+          transform-origin: bottom right;
+          width: 10px;
+          border-bottom: 1px solid #fafafa;
+        }
+        .arrleftline {
+          border-bottom: 1px solid #fafafa;
+          width: 29px;
+        }
+      }
+    }
+  }

@@ -1,0 +1,36 @@
+.joinus-welcome-title {
+    margin-top: 0 !important;
+    text-transform: uppercase;
+    transform: translateY(-50%);
+    margin-left: 5%;
+    .en {
+      font-family: "DIN-Regular";
+      margin-bottom: 10px;
+    }
+    .cn {
+      font-family: "NotoSansCJKsc-Light";
+      font-size: 15px;
+      width: 80%;
+      letter-spacing: 3px;
+      white-space: nowrap;
+    }
+    h3 {
+      font-weight: normal;
+      font-size: 18px;
+    }
+  }
+  .vertical-text {
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    color: white;
+    transform: rotate(-90deg);
+    text-align: center;
+    top: calc(100%/2);
+    text-transform: uppercase;
+    letter-spacing: 9px;
+    margin: 0px !important;
+    width: 53%;
+    left: -16%;
+    animation: text-fill 1s 5s forwards;
+}

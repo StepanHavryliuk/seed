@@ -1,0 +1,941 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box
+}
+
+a {
+  color: #fff;
+
+}
+
+::-webkit-scrollbar {
+  height: 2px !important;
+  width: 2px !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 255, 255);
+  border-radius: 1px;
+  border-width: 4px;
+}
+
+/*定义了轨道的样式*/
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background: hsla(0, 0%, 76%, 0.3);
+}
+
+::-moz-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background: hsla(0, 0%, 76%, 0.3);
+}
+
+.happy-scroll-strip--vertical,.happy-scroll-strip--horizontal {
+  background: rgba(194,194,194,0.3);
+}
+
+html {
+  /*隐藏滚动条，当IE下溢出，仍然可以滚动*/
+  -ms-overflow-style: none;
+  /*火狐下隐藏滚动条*/
+
+  scrollbar-color: transparent transparent;
+  scrollbar-track-color: transparent;
+  -ms-scrollbar-track-color: transparent;
+}
+
+#app {
+  height: 100%;
+  font-family: 'NotoSansCJKsc-Light';
+}
+
+.menuitem {
+  color: #fff;
+  text-decoration: none;
+}
+
+ul {
+  padding-left: 10px;
+}
+
+.footer .bottom-right-menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.construction {
+  left: 47%;
+  position: absolute;
+  top: 33%;
+  z-index: 1;
+  cursor: pointer;
+  text-align: center;
+  background-color: #0000004a;
+  width: 100%;
+}
+
+#mobile-page h1 {
+  font-family: "NotoSansCJKsc-Thin";
+}
+
+.mobile_container.development .fp-tableCell {
+  display: block;
+}
+
+.back_arrow {
+  position: absolute;
+  top: 7%;
+  left: 3%;
+  z-index: 2;
+}
+
+.back_arrow img {
+  width: 25px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1150px) {
+  .chnavleft {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .drawer-menu a.ripple {
+    padding: 20px;
+  }
+
+  .drawer-menu {
+    margin-top: 20px;
+  }
+
+  .main.container.joinus .navbar {
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .subcontainer.profile .exploremore.button {
+    margin-right: -46%;
+  }
+
+  .subcontainer.profile .right {
+    padding-right: 0px;
+  }
+
+  .subcontainer.profile p#aboutplus2 {
+    right: -173px;
+  }
+
+  .subcontainer.profile p#aboutplus4 {
+    right: -173px;
+  }
+}
+
+@media only screen and (max-width: 1144px) {
+  .main.container.joinus .find-out-more {
+    right: 50px;
+  }
+
+  .main.container.integrity .find-out-more {
+    right: 50px;
+  }
+
+  .integrityhome-main-title {
+    font-size: 50px;
+  }
+
+  .joinus-welcome-title h1.joinus-main-title {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 890px) {
+  .main.container.integrity .find-out-more button {
+    width: 300px;
+  }
+
+  .main.container.integrity .find-out-more {
+    right: 10px;
+  }
+}
+
+@media only screen and (max-width: 1548px) {
+  #aboutus .sixtypercent video {
+    width: 488px;
+  }
+
+  #aboutus .tree-diagram-title {
+    margin-top: -10px;
+  }
+
+  #aboutus .title.logo {
+    margin-bottom: 0%;
+  }
+
+  #aboutus .subcontainer.structure .right {
+    margin-top: 0%;
+  }
+}
+
+/*  @media only screen and (max-height: 700px){
+      .subcontainer .content{
+            width: 100% !important;
+      }
+    }*/
+
+@media only screen and (max-height: 675px) {
+  #aboutus .title.logo {
+    display: none;
+  }
+
+  #aboutus .subcontainer.structure .right {
+    margin-top: 0px !important;
+  }
+}
+
+@media only screen and (max-height: 690px) {
+  .drawer-menu {
+    margin-top: 0px;
+  }
+
+  .drawer-menu a.ripple {
+    padding: 18px;
+  }
+
+  .console .left_arrow {
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (max-width: 1180px) {
+  .subcontainer.structure .leftright.button {
+    top: 50px;
+  }
+
+  .subcontainer.philosophy .right.content {
+    margin-top: 10% !important;
+  }
+
+  .subcontainer.structure .right .title.logo {
+    padding-bottom: 0px;
+  }
+
+  #aboutus .subcontainer.structure .right {
+    margin-top: 24px !important;
+  }
+
+  .subcontainer .left .subpage.title .en {
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .subcontainer .left .subpage.title .cn {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 1220px) {
+  .tree-diagram-horizontal-line {
+    max-width: 111px;
+  }
+
+  #tree-diagram-names {
+    left: 199px;
+    width: 100% !important;
+  }
+
+  #aboutus .sixtypercent video {
+    width: 400px;
+  }
+
+  .newsdetailwrapper-preview .footer .right {
+    padding-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 1574px) {
+
+  .footer .contactform label,
+  .footer .contactform input {
+    font-size: 23px;
+  }
+
+  .footer #myform .selectdiv {
+    width: 44%;
+  }
+}
+
+@media only screen and (max-width: 1223px) {
+  .landing.container .navbar .left {
+    width: 32%;
+  }
+
+  .landing.container .navbar .right {
+    width: 68%;
+  }
+}
+
+@media only screen and (max-width: 1256px) {
+  #aboutus .subcontainer.structure .right {
+    margin-top: 53px;
+    margin-left: -13%;
+  }
+
+  .sound-icon,
+  .refresh-icon {
+    position: relative;
+  }
+
+  .sound-icon {
+    left: 0px;
+  }
+
+  .refresh-icon {
+    right: 0px;
+  }
+
+  .refresh-icon-text {
+    right: auto;
+  }
+
+  .bottom-right-section {
+    letter-spacing: 3px;
+  }
+
+  .footer-logo img {
+    width: 200px;
+  }
+
+  .all-rights {
+    left: 27%;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .bottom-right-section {
+    letter-spacing: 0px;
+  }
+
+  .footer-logo img {
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .footer #myform .selectdiv {
+    width: 37%;
+  }
+
+  .container.footer .form-title {
+    padding-top: 10px;
+  }
+
+  .searchjobs {
+    width: 26%;
+  }
+
+  .joinus-listing-vertical-text .vertical-text {
+    top: 57px !important;
+  }
+
+  .apply-header p:last-child {
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (max-height: 850px) {
+  .integrity-sections-vertical-text .vertical h1 {
+    font-size: 20px !important;
+    margin-top: 10px;
+  }
+
+  .main.container .subcontainer {
+    margin-top: 1%;
+  }
+
+  #integrityform1-submit-wrap {
+    margin-top: 20px;
+  }
+
+  .subcontainer.joinuslisting .joinus-bg-overlay {
+    margin-top: -1%;
+  }
+}
+
+@media only screen and (max-height: 780px) {
+  .subcontainer.structure .footer .right {
+    bottom: 10px;
+  }
+}
+
+@media only screen and (max-height: 940px) {
+  #projectdetails .hamburger {
+    margin-right: 0px;
+  }
+}
+
+@media only screen and (max-height: 790px) {
+  .main.container.integrity .integrity-sections-inner .find-out-more {
+    bottom: 6%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .vertical_text_container .vertical_text.first {
+    margin-left: -3vw;
+  }
+
+  .vertical_text_container .vertical_text.second {
+    margin-left: -4vw;
+  }
+
+  .vertical_text_container .vertical_text.third {
+    margin-left: -1vw;
+  }
+
+  .preloader-bg {
+    height: 100vh !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .vertical_text_container .vertical_text.first {
+    margin-left: -4vw;
+  }
+
+  .vertical_text_container .vertical_text.second {
+    margin-left: -5vw;
+  }
+
+  .vertical_text_container .vertical_text.third {
+    margin-left: 0;
+  }
+}
+
+.apply_head p {
+  margin: 0px;
+  font-size: 21px;
+}
+
+.apply-class p {
+  margin: 0;
+  line-height: 29px;
+}
+
+.apply-class {
+  padding-top: 10px;
+}
+
+#joblisting-signup .selectdiv {
+  display: inline-block;
+  width: 40%;
+}
+
+.bg_overlay {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.24);
+}
+
+.bg_overlay.darker {
+  background-color: rgba(0, 0, 0, 0.73);
+}
+
+.integrity-sections-vertical-text .vertical h1 {
+  font-size: 26px;
+}
+
+.tab-number.active {
+  opacity: 1 !important;
+}
+
+.integrityform1-form-group::after,
+.integrityform2-form-group::after,
+.integrityform3-form-group::after {
+  display: block;
+  content: "";
+  border-bottom: solid 1px rgba(255, 255, 255, 0.5215686274509804);
+  margin-top: 15px;
+}
+
+.integrityform1-form-group.disable-line::after,
+.integrityform2-form-group.disable-line::after,
+.integrityform3-form-group.disable-line::after {
+  content: none;
+}
+
+body {
+  scrollbar-color: rgba(255, 255, 255, 1) rgba(194, 194, 194, 0.3);
+  scrollbar-width: thin;
+}
+
+.newsbox .newscontent {
+  height: 100%;
+  padding: 0;
+  max-width: 400px;
+  float: unset;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.newsbox .row {
+  display: block;
+  width: 100%;
+  position: relative;
+  height: 50%;
+  white-space: nowrap;
+  padding-top: 20px;
+}
+
+::-webkit-scrollbar {
+  height: 3px;
+}
+
+.news.overlay {
+  height: 100%;
+  z-index: 0;
+}
+
+.main.container.development .projectitembg {
+  float: unset;
+  display: inline-block;
+}
+
+.development .row {
+  display: block;
+  width: 100%;
+  position: relative;
+  height: 50%;
+  white-space: nowrap;
+}
+
+.development .side-text {
+  white-space: normal;
+}
+
+.right-col-text-content h1,
+.right-col-text-content h2 {
+  font-size: 23px;
+}
+
+.scrollbox.active {
+  background-position: center;
+}
+
+.mobile_container .apply-header p {
+  margin: 0px;
+}
+
+.mobile_container .apply-class {
+  font-size: 13px;
+}
+
+.drawer-right.four {
+  height: 100%;
+  width: 100%;
+}
+
+.drawer-right.four .photoviewer {
+  height: 100%;
+  width: 100%;
+}
+
+.joinusstaffbox img {
+  cursor: pointer;
+}
+
+.blue-overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(26, 56, 87, 0.86);
+}
+
+#theplanimgc {
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  height: 100%;
+}
+
+.container.footer #section-2 {
+  width: 100%;
+  float: left;
+  box-sizing: border-box;
+  position: absolute;
+  display: block;
+  left: 0;
+}
+
+.footer #myform .selectdiv {
+  display: inline-block;
+  margin-left: 10px;
+  width: 40%;
+  position: relative;
+}
+
+.footer #myform .selectdiv:after {
+  right: 10px;
+  top: 14px;
+}
+
+.moveToTop {
+  position: absolute;
+  top: 5%;
+  margin-top: 0;
+}
+
+.footer-logo.moveToTop {
+  margin-left: 30px;
+}
+
+.bottom-right-section.moveToTop {
+  margin-left: 30px;
+}
+
+.all-rights.moveToTop {
+  left: 35%;
+}
+
+.bottom-right-section .moveToTop i.down {
+  -webkit-transform: rotate(224deg);
+}
+
+.blur.black {
+  background-color: black;
+}
+
+#aboutus.main.container .subcontainer.profile {
+  padding-right: 50%;
+}
+
+
+
+.construction-text-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.construction-text-container section {
+  text-align: center;
+  position: relative;
+  top: 30%;
+}
+
+#mobile-page textarea {
+  max-width: 100%;
+  color: white;
+}
+
+.preloader-bg {
+  background-color: #232323;
+  height: 100%;
+  width: 100vw;
+  position: absolute;
+  z-index: 8;
+}
+
+.preloader-img {
+  display: block;
+  margin: auto auto auto auto;
+  max-height: 45%;
+  max-width: 30%;
+  position: relative;
+  top: 25%;
+  z-index: 8;
+}
+
+.fullscreen-bg__video.active {
+  display: none;
+}
+
+.fullscreen-bg__video.img {
+  width: 100%;
+  max-height: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: -101;
+}
+
+.fullscreen-bg__video.img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.newsdetailwrapper-body img {
+  max-width: 100%;
+}
+
+br {
+  font-family: unset;
+}
+
+.svgBlur .blurred {
+  opacity: 0;
+}
+
+#joblisting-form div.textbox {
+  padding-top: 30px;
+}
+
+.simplebar-scrollbar:before {
+  background: white;
+}
+
+.simplebar-track .simplebar-scrollbar.simplebar-visible:before {
+  opacity: 1;
+}
+
+.simplebar-scrollbar {
+  width: 3px;
+  right: 1px;
+}
+
+.simplebar-track.simplebar-vertical {
+  width: 5px;
+}
+
+.simplebar-track {
+  background: rgba(194, 194, 194, 0.3);
+}
+
+.simplebar-track.simplebar-horizontal .simplebar-scrollbar {
+  height: 3px;
+}
+
+.simplebar-track.simplebar-horizontal {
+  height: 6px;
+}
+
+.salesBox,
+.newsBox {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+textarea {
+  overflow: auto;
+}
+
+.joblisting-form-wrapper.jobListing {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#joblisting-signup {
+  height: 100%;
+}
+
+.object-fit-polyfill {
+  height: 100% !important;
+  overflow: visible !important;
+  position: static !important;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 850px) {
+  section.connection-video-wrapper video {
+    margin: 0 auto;
+    width: 65% !important;
+  }
+}
+
+.glory-content-right ul li {
+  list-style: none;
+}
+
+.glory-content-right ul li:before {
+  content: ".";
+  vertical-align: middle;
+  display: inline-block;
+  margin-top: -24px;
+  font-size: 31px;
+  margin-right: 4px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  /* Firefox */
+}
+
+.disabled .joblabel p {
+  color: rgba(193, 193, 193, 0.7411764705882353);
+}
+
+.jobsearchbtn.disabled:hover {
+  background-color: #777;
+}
+
+.jobsearchbtn.disabled {
+  pointer-events: none;
+}
+
+#integrityform1-submit.disabled,
+#integrityform2-submit.disabled,
+#integrityform3-submit.disabled,
+#submit-btn.disabled,
+#joinus-link-content.disabled #content1,
+#joinus-link-content.disabled .en-btn,
+.container.footer #submit.disabled,
+#content1.single.disabled .en-btn {
+  color: rgba(193, 193, 193, 0.7411764705882353);
+  pointer-events: none;
+  touch-action: none;
+}
+
+.slide.joinus.disabled {
+  touch-action: none;
+}
+
+.vdatetime-popup {
+  position: absolute;
+}
+
+#joblisting-signup .selectdiv:after {
+  right: 10px;
+}
+
+#joblisting-signup .selectdiv {
+  position: relative;
+}
+
+.vdatetime-popup {
+  max-width: calc(100% - -20px);
+}
+
+.tree-diagram-title,
+.tree-diagram-sub-title {
+  font-weight: 100;
+  font-family: "NotoSansCJKsc-Thin";
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.tree-diagram-title {
+  font-size: 21px;
+  letter-spacing: 0.3em;
+}
+
+.tree-diagram-sub-title {
+  letter-spacing: 0.05em;
+  font-size: 13px;
+}
+
+.tree-timeline-names-inner span:nth-child(3) {
+  font-family: "NotoSansCJKsc-Thin";
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-size: 12px;
+  white-space: normal;
+}
+
+.tree-timeline-names-inner span:nth-child(1) {
+  font-family: "NotoSansCJKsc-Thin";
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.newsdetailwrapper .footer,
+.joinusthepostdetail .footer {
+  height: 20%;
+  position: relative;
+}
+
+.integrity .vertical {
+  margin-top: 0px;
+  top: 65px;
+}
+
+.box.entranceFromLeft {
+  min-width: 10px;
+}
+
+.language-selector.en {
+  right: 20px;
+}
+
+.seedaward {
+  position: absolute;
+  right: 18px;
+  bottom: 22px;
+}
+
+.seedaward img {
+  width: 30vw;
+  box-shadow: 1px 1px 11px 0px #848080;
+  cursor: pointer;
+}
+
+.subcontainer.philosophy .right .tab.title p {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+
+@media screen and (max-height: 700px) {
+  .subcontainer.profile .aboutus.content {
+    height: 30vh;
+  }
+
+  .main.container .subcontainer {
+    padding-top: 40px;
+  }
+
+  #integrityform1-tab-title1 {
+    top: -30px;
+  }
+
+  #integrityform1 #integrityform1-tab-title1 .tab-number:not(.active) {
+    top: 30px;
+  }
+
+  .container.footer .up {
+    padding-top: 0px;
+  }
+}
+
+@media screen and (max-height: 850px) {
+  .container.footer .form-title {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+  }
+
+  .container.footer .form-wrap {
+    width: 100%;
+  }
+}
+
+.aligncenter {
+  display: block;
+  margin: 0 auto;
+}
+
+.vdatetime-popup {
+  width: 260px !important;
+}
+
+img {
+  max-width: 100%;
+}
+
+.simplebar-track {
+  pointer-events: all;
+}

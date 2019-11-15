@@ -1,0 +1,1027 @@
+.subcontainer.joinusmain,
+.subcontainer.joinuslisting {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+}
+
+.joinuswelcome-slide {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.joinusthepostcontent img {
+    max-width: 100%;
+}
+
+.joinuswelcome-slide-1 {
+    background-size: cover;
+    z-index: 10;
+    display: none;
+}
+
+.joinuswelcome-slide-2 {
+    background-size: cover;
+    z-index: 9;
+
+}
+
+.joinus-welcome-title .en {
+    font-family: "DIN-Regular";
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.joinus-welcome-title .cn,
+.joinus-welcome-title-bottom h2,
+.scrollboxcontent h1,
+.main.container.joinus .find-out-more span {
+    font-size: 15px;
+    width: 80%;
+    letter-spacing: 3px;
+    white-space: nowrap;
+    font-family: "NotoSansCJKsc-Light";
+}
+
+.joinus-welcome-title-bottom h2 {
+    font-size: 60px;
+}
+
+.joinus-welcome-title-bottom h1 {
+    font-family: "NotoSansCJKsc-Thin";
+    font-size: 120px;
+    line-height: 0;
+}
+
+.main.container.joinus .find-out-more p {
+    margin: 0 auto;
+    width: auto;
+    letter-spacing: 3px;
+    white-space: nowrap;
+    padding-bottom: 5px;
+    font-family: "DIN-Light";
+    font-size: 14px;
+}
+
+.joinus-welcome-title h3 {
+    font-weight: normal;
+    font-size: 17px;
+}
+
+.joinus-welcome-title {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 5%;
+}
+
+.joinuslisting-main-wrapper .joinus-welcome-title {
+    position: relative;
+}
+
+
+.joinus-welcome-title h1.joinus-secondary-title {
+    line-height: 0;
+    font-size: 44px;
+    font-family: "NotoSansCJKsc-Light";
+    font-weight: lighter;
+}
+
+.joinus-welcome-title h1.joinus-main-title {
+    line-height: 50px;
+    font-size: 65px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-family: NotoSansCJKsc-Thin;
+}
+
+.main.container.joinus .find-out-more {
+    position: absolute;
+    z-index: 0;
+    right: 200px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 5%;
+}
+
+.joinus-welcome-title-bottom {
+    top: 450px;
+    left: 66px;
+    position: absolute;
+}
+
+#joinusmain,
+#joinuslisting,
+#joinuswelcome {
+    padding-top: 0 !important;
+}
+
+.main.container.joinus .navbar {
+    clear: both;
+    margin-top: 50px;
+    z-index: 4;
+    float: right;
+    position: absolute;
+    right: 0;
+}
+
+.main.container.joinus .navbar .right {
+    width: 100% !important;
+}
+
+
+.overlay {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.71);
+    z-index: 1;
+}
+
+
+
+#joinusmain.subcontainer {
+    padding-left: 5% !important;
+    padding-right: 0% !important;
+}
+
+#sectionwrapper section div {
+    overflow: hidden;
+    white-space: normal;
+}
+
+
+#top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.top-left,
+.top-right {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.spacing {
+    z-index: -1;
+
+}
+
+
+.retain-scrollbox {
+    width: 20vw;
+    margin: 40px;
+    height: 50vh;
+    transition: all 0.8s;
+    transform: translate3d(0, 0, 0);
+}
+
+@media only screen and (min-width:1921px) {
+
+    /* Resolution-specific CSS & images */
+    .scrollbox.active .scrollboxcontent {
+        padding-left: 17%;
+        padding-right: 17%;
+    }
+
+}
+
+@media only screen and (min-width:2600px) {
+
+    .scrollbox.active .scrollboxcontent {
+        padding-left: 23%;
+        padding-right: 35%;
+    }
+
+}
+
+@media only screen and (min-width:3100px) {
+
+    .scrollbox.active .scrollboxcontent {
+        padding-left: 23%;
+        padding-right: 44%;
+    }
+
+}
+
+
+
+
+.bottom-overlay {
+    height: 152px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(#3333330d, #000000);
+    z-index: -1;
+    display: none;
+}
+
+.top-right img {
+    float: right;
+    width: 3%;
+    cursor: pointer;
+}
+
+.top-left img {
+
+    width: 5%;
+    cursor: pointer;
+}
+
+.left-and-right-arrow {
+    position: absolute;
+    bottom: 180px;
+    left: 60px;
+    z-index: 999;
+    width: 30%;
+}
+
+.bottom-nav {
+    height: 30px;
+    color: #fff !important;
+    display: inline-block;
+    position: absolute;
+}
+
+.bottom-nav.left,
+.bottom-nav.right {
+    width: 30px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.bottom-nav.right {
+    top: unset;
+    transform: unset;
+}
+
+.bottom-nav.left:hover,
+.bottom-nav.right:hover {
+    opacity: 1 !important;
+    transition: all 0.3s;
+
+}
+
+.bottom-nav.right {
+    left: 129px;
+}
+
+.bottom-nav.left img,
+.bottom-nav.right img {
+    width: 100%;
+}
+
+.bottom-nav.mid {
+    width: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+    left: 27px;
+    bottom: -22px;
+}
+
+.bottom-nav.mid p {
+    float: left;
+}
+
+.bottom-navigation img {
+    width: 100%;
+}
+
+.arrow img {
+    width: 5%;
+}
+
+.numbers {
+    color: #fff;
+    margin-top: -10px;
+}
+
+#line {
+    margin-top: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.scrollboxcontent h1 {
+    font-size: 60px;
+    font-weight: normal;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.scrollboxcontent h2 {
+    font-size: 20px;
+    margin-top: 15px;
+    font-family: "DIN-Regular";
+    letter-spacing: 3px;
+}
+
+.scrollboxcontent h2::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 1px;
+    background: #fff;
+}
+
+.scrollboxcontent p {
+    font-size: 17px;
+}
+
+
+
+
+
+
+.first-num,
+.second-num {
+    cursor: pointer;
+}
+
+.joinusmain {
+
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.joinuslisting {
+
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.joinuslisting-right-col {
+    width: 76vw;
+    float: left;
+    box-sizing: border-box;
+    height: 100vh;
+    max-height: 83vh;
+}
+
+.searchjobs {
+    width: 20%;
+    float: left;
+    box-sizing: border-box;
+}
+
+
+#joblisting-table .right-col-text-content h2 {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+.jobsearchfield,
+.jobsearchbtn {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+.jobsearchbtn:hover {
+    background-color: #595959;
+    transition: all 0.3s ease;
+}
+
+.jobsearchfield {
+    background-color: rgba(255, 255, 255, 0);
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+.right-col-text-content {
+    line-height: 45px !important;
+    font-size: 23px;
+}
+
+.right-col-text-content a {
+    color: white;
+}
+
+.right-col-text-content h1,
+.right-col-text-content h2 {
+    font-weight: normal;
+}
+
+
+
+
+.form-group 
+
+
+
+
+
+/* The container */
+.container2 {
+    display: inline;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 30px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    opacity: 0.6;
+    font-weight: lighter;
+    font-family: "NotoSansCJKsc-Light";
+    margin-right: 20px;
+}
+
+.container2:hover {
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+
+/* Hide the browser's default radio button */
+.container2 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* On mouse-over, add a grey background color */
+.container2:hover input~.checkmark {
+    background-color: #ccc;
+    transition: all 0.3s ease;
+}
+
+/* When the radio button is checked, add a blue background */
+.container2 input:checked~.checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container2 input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container2 .checkmark:after {
+    top: 6px;
+    left: 6px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+
+#joblisting-form {
+    width: 100%;
+}
+
+
+/* The container */
+.container3 {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    opacity: 0.6;
+}
+
+.container3:hover {
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+
+/* Hide the browser's default radio button */
+.container3 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: none;
+    border-radius: 50%;
+    border: 1px solid #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container3:hover input~.checkmark {
+    background-color: #ccc;
+    transition: all 0.3s ease;
+}
+
+/* When the radio button is checked, add a blue background */
+.container3 input:checked~.checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container3 input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container3 .checkmark:after {
+    top: 6px;
+    left: 5px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+
+.no-bottom-border:after {
+    border-bottom: none !important;
+}
+
+.form-cross-icon {
+    width: 2%;
+    position: absolute;
+    right: 7%;
+    top: 0px;
+    cursor: pointer;
+}
+
+
+
+
+
+@keyframes button_bottom_border {
+    0% {
+        width: 0%;
+
+    }
+
+    100% {
+        width: 60%;
+
+    }
+}
+
+
+
+@keyframes button_top_border {
+    0% {
+        transform: scaleX(0);
+
+    }
+
+    100% {
+        transform: scaleX(1);
+
+    }
+}
+
+.name-line:after,
+.handphone-line:after,
+.email-line:after,
+.address-line:after,
+.city-line:after,
+.postal-line:after,
+.company-line:after,
+.working-years-line:after,
+.work-location-line:after,
+.salary-line:after,
+.expected-salary-line:after {
+    width: 100% !important;
+    transition: all 0.8s;
+}
+
+#joblisting-form #name-line label,
+#joblisting-form #handphone-line label,
+#joblisting-form #email-line label,
+#joblisting-form #address-line label,
+#joblisting-form #city-line label,
+#joblisting-form #postal-line label {
+    display: none;
+}
+
+/*#owner,#deputy{
+	display: none;
+}*/
+.main.container.joinus .cross {
+    color: #fff;
+    position: absolute;
+    z-index: 999;
+}
+
+
+
+/**------------BUTTON REVISIONS-------------**/
+
+.main.container.news .find-out-more button .findoutplus1,
+.main.container.joinus .find-out-more button .findoutplus1,
+.main.container.integrity .find-out-more button .findoutplus1 {
+    position: absolute;
+    top: -10px;
+    left: -6px;
+    font-size: 18px;
+}
+
+.main.container.news .find-out-more button .findoutplus2,
+.main.container.joinus .find-out-more button .findoutplus2,
+.main.container.integrity .find-out-more button .findoutplus2 {
+    position: absolute;
+    top: -10px;
+    right: -5px;
+    font-size: 18px;
+}
+
+.main.container.news .find-out-more button .findoutplus3,
+.main.container.joinus .find-out-more button .findoutplus3,
+.main.container.integrity .find-out-more button .findoutplus3 {
+    position: absolute;
+    bottom: -11px;
+    left: -5px;
+    font-size: 18px;
+}
+
+.main.container.news .find-out-more button .findoutplus4,
+.main.container.joinus .find-out-more button .findoutplus4,
+.main.container.integrity .find-out-more button .findoutplus4 {
+    position: absolute;
+    bottom: -11px;
+    right: -5px;
+    font-size: 18px;
+}
+
+span.findoutleft {
+    float: left;
+    position: relative;
+    width: 80%;
+    font-size: 18px;
+    text-align: left;
+}
+
+.findoutleft p {
+    margin: 0 auto;
+    white-space: nowrap;
+    width: auto;
+    letter-spacing: 4px;
+    white-space: nowrap;
+    padding-bottom: 5px;
+}
+
+.findoutleft span {
+    font-size: 15px;
+    width: auto;
+    letter-spacing: 3px;
+    white-space: nowrap;
+    font-family: "NotoSansCJKsc-Light";
+}
+
+.findoutright {
+    position: relative;
+    float: left;
+    width: 20%;
+    top: 10;
+}
+
+.findoutleft p {
+    margin: 0 auto;
+    white-space: nowrap;
+}
+/*  JOIN US NOW BUTTON   */
+/* INQUIRE BUTTON*/
+.job-box {
+    position: relative;
+}
+
+.joblabel p {
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.joblabel img {
+    float: right;
+    width: 24px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.subcontainer .scrollboxcontent .title.underline {
+    margin: 30px 0px;
+}
+
+
+#joblisting-form::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #555;
+    opacity: 1;
+    /* Firefox */
+    padding-left: 15px;
+    font-size: 30px;
+}
+
+#joblisting-form:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #555;
+    padding-left: 15px;
+    font-size: 30px;
+}
+
+#joblisting-form::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #555;
+    padding-left: 15px;
+    font-size: 30px;
+}
+
+.main.container.joinus #joblisting-form ::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff;
+    font-size: 25px;
+    opacity: 0.7;
+    padding-left: 10px;
+}
+
+.main.container.joinus #joblisting-form :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #fff;
+    font-size: 25px;
+    opacity: 0.7;
+    padding-left: 10px;
+}
+
+.main.container.joinus #joblisting-form ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #fff;
+    font-size: 25px;
+    opacity: 0.7;
+    padding-left: 10px;
+}
+
+#joinusmain,
+#oinuslisting {
+    /* display: none; */
+}
+
+#joinusmain .joinus-welcome-title {
+    position: absolute;
+}
+
+
+::-webkit-scrollbar-button {
+    display: block;
+    height: 13px;
+    border-radius: 0px;
+    background-color: #AAA;
+}
+
+img.staffimgclose {
+    transform-origin: center center;
+    transform: rotate(45deg);
+    border-bottom: 3px solid #fafafa;
+    width: 100%;
+}
+
+p.staffparaclose {
+    transform-origin: center center;
+    transform: rotate(142deg);
+    border-bottom: 3px solid #fafafa;
+    width: 100%;
+}
+
+
+
+
+.staffimgclose {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.8);
+    transform-origin: center center;
+    transform: translate(63px, 3px)rotate(135deg);
+    width: 25px;
+}
+
+.staffparaclose {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.8);
+    transform-origin: center center;
+    transform: translate(63px, 1px) rotate(225deg);
+    width: 25px;
+}
+
+
+
+
+
+
+
+
+
+.joinusstaffboxclose img {
+    right: 0;
+    position: absolute;
+    right: 0;
+    position: absolute;
+    width: 28px;
+    margin-right: 20px;
+}
+
+.joinusstaffboxclose img {
+    right: 0;
+    position: absolute;
+    right: 0;
+    position: absolute;
+    width: 28px;
+    margin-right: 20px;
+}
+
+
+
+::-webkit-scrollbar-button {
+    display: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(194, 194, 194, 0.3);
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+#joblisting-submit-success {
+    display: none;
+    position: absolute;
+    text-align: center;
+    width: 65%;
+    margin: 0 auto;
+    padding-top: 75px;
+}
+
+.joinus-mainbg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    z-index: -1;
+}
+
+#joblisting-signup-success {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 50px;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    margin-top: -3%;
+}
+
+#joblisting-signup-success h1 {
+    font-size: 50px;
+}
+
+#back-to-form {
+    width: 250px;
+    border: 1px solid #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+#back-to-form:hover {
+    background: #000 !important;
+    transition: all 0.3s ease-in-out;
+    border-color: #000 !important;
+}
+
+.joinus-mainbg {
+    transform: scale(1.1);
+}
+
+.signup-success-cross-icon {
+    width: 30px;
+    float: right;
+    cursor: pointer;
+    opacity: 0.6;
+    margin-right: 50px;
+}
+
+.signup-success-cross-icon:hover {
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+.close-wrapper {
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+
+@media only screen and (max-width: 1920px) {
+    .scrollbox .scrollboxtitle {
+        font-size: 9px;
+    }
+
+    .joinus-welcome-title-bottom {
+        top: 280px;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+
+    .joinus-welcome-title-bottom {
+        top: 180px;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .joinus-welcome-title-bottom {
+        top: 15px !important;
+    }
+
+}
+
+/*Scroll bar style on firefox*/
+#mCSB_3_dragger_vertical .mCSB_dragger_bar,
+#mCSB_4_dragger_vertical .mCSB_dragger_bar,
+#mCSB_1_dragger_vertical .mCSB_dragger_bar,
+#mCSB_2_dragger_vertical .mCSB_dragger_bar,
+#mCSB_5_dragger_vertical .mCSB_dragger_bar,
+#mCSB_6_dragger_vertical .mCSB_dragger_bar,
+#mCSB_7_dragger_vertical .mCSB_dragger_bar,
+#mCSB_8_dragger_vertical .mCSB_dragger_bar {
+    background-color: #fff !important;
+    border-radius: 0 !important;
+}
+
+#mCSB_3_scrollbar_vertical,
+#mCSB_4_scrollbar_vertical,
+#mCSB_1_scrollbar_vertical,
+#mCSB_2_scrollbar_vertical,
+#mCSB_5_scrollbar_vertical,
+#mCSB_6_scrollbar_vertical,
+#mCSB_7_scrollbar_vertical,
+#mCSB_8_scrollbar_vertical {
+    opacity: 1 !important;
+}
+
+#mCSB_3_scrollbar_vertical .mCSB_draggerContainer .mCSB_draggerRail,
+#mCSB_4_scrollbar_vertical .mCSB_draggerContainer .mCSB_draggerRail,
+#mCSB_1_scrollbar_vertical .mCSB_draggerContainer .mCSB_draggerRail,
+#mCSB_2_scrollbar_vertical .mCSB_draggerContainer .mCSB_draggerRail,
+#mCSB_5_scrollbar_vertical .mCSB_draggerContainer .mCSB_draggerRail,
+#mCSB_6_scrollbar_vertical .mCSB_draggerContainer .mCSB_draggerRail,
+#mCSB_7_scrollbar_vertical .mCSB_draggerContainer .mCSB_draggerRail,
+#mCSB_8_scrollbar_vertical .mCSB_draggerContainer .mCSB_draggerRail {
+    background-color: rgba(255, 255, 255, 0.30);
+}
