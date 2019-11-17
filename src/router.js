@@ -10,14 +10,17 @@ export default new Router({
     {
       path: '/',
       name: 'home',
-      component: Home,
+      // component: Home,
+      component: () => import('./page/Development/index.vue'),
+
     },
     {
       path: '/test',
       name: 'test',
-      component: () => import('./page/Test/test.vue'),
+      component: () => import('./page/About/index.vue'),
 
     },
+
     
   ]
 })

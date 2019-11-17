@@ -14,6 +14,8 @@ import 'view-design/dist/styles/iview.css';
 import animated from 'animate.css'
 import VueI18n from 'vue-i18n'
 
+
+Vue.use(animated);
 import 'simplebar'; 
 import 'simplebar/dist/simplebar.css';
 
